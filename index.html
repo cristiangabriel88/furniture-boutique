@@ -1,181 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500;1,700&family=Heebo:wght@500&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Quicksand&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500;1,700&family=Heebo:wght@500&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
-    <title>Furniture Boutique</title>
-  </head>
 
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500;1,700&family=Heebo:wght@500&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet" />
+	<title>Furniture Boutique</title>
+</head>
 
-  <body>
-    <nav>
-      <div class="nav">
-        <img src="/resources/images/logo.png" alt="Logo" class="logo" />
-        <div class="buttons">
-          <a class="button" href="/index.html#steps">Steps</a>
-          <a class="button" href="/index.html#ideas">Design</a>
-          <a class="button" href="/index.html#team">Team</a>
-          <a class="button" href="/index.html#contact">Contact</a>
-        </div>
-      </div>
-    </nav>
+<body>
 
-    <div class="margintop"></div>
-    <header>
-      <!-- <h1>Make your dream couch come true</h1> -->
-      <img src="/resources/images/header.jpeg" alt="Header Image" />
-      <p>
-        TAILORED FOR YOU <br />
-        There are countless elements that make you, uniquely you. And we love
-        helping you express your identity through our highly customisable
-        collection. Not just sofas, we can change the size, configuration,
-        colours and materials of nearly every design. It’s all about helping you
-        create a truly personal home that matches your style, budget and the way
-        you live. So more than 80% of our collection can be altered for size,
-        component, colour or material. From a sofa’s legs and armrests, to the
-        size of your dining table, or the configuration of your new wall system.
-      </p>
-      <img id="secondPhoto" src="/resources/images/second photo.jpg" alt="" />
-      <p>
-        PERSONAL FURNITURE <br />Creating custom furniture is very close to our
-        heart and concept. Our concept is all about you, your world and your exciting,
-        personal taste. That’s why we’re creating design pieces with personal
-        freedom. Express your tastes by designing a custom sofa, by designing
-        your own media unit, by having our interior designers tailor furniture
-        to your home and create a bespoke, personal solution. It’s functional
-        design furniture that adapts to your life. Your freedom of expression is
-        also found in our range of over a hundred luxury fabrics and leathers.
-        Choose from a variety of hues and finishes. From on-trend velvet,
-        corduroy and other tactile structures, to exclusive pure aniline leather
-        and Italian lambswool felt. So start designing, optimising, combining
-        and personalising – we’re ready with your bespoke furniture solution.
-      </p>
-    </header>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="/resources/images/logo.png" alt="Logo" class="img-fluid" width="250px" />
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link" href="#steps">Steps</a></li>
+					<li class="nav-item"><a class="nav-link" href="#ideas">Design</a></li>
+					<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-    <h2 >How it works</h2>
-    <main id="steps">
-      <div class="step one">
-        <img src="/resources/images/work0.jpg" />
-        <p>
-          <strong>STEP 1: STYLE SELECTION</strong><br> Step one is about finding the shape and style
-          you like. If it’s a sofa you are looking for, check out the sofa
-          overview, where we have a curated selection of our sofa designs.
-          Whether it’s curved or straight, sharp lines or soft shapes – here is
-          your overview of sofa systems to fit any contemporary taste. Choose
-          your favourite design – maybe it’s the Osaka collection – and you’re
-          ready for the next step. If you are looking for a dining chair, it’s
-          the same process; go to the overview page, find your favourite
-          collection and get ready to make it your own.
-        </p>
-      </div>
-      <div class="step two">
-        <img src="/resources/images/work2.jpg" />
-        <p>
-        <strong>STEP 2: MEASUREMENTS AND SIZE</strong><br> Once you have found a design you love,
-          its time to make sure it fits your home. Remember that we are not able
-          to show everything online - but if you have your heart set on a
-          specific piece, check the product details to find all relevant
-          measurements. If you are in doubt, visit us and have a talk with our
-          talented team members on how to integrate and optimise your space.
-          Once you have the perfectly sized designer piece, you’re on to step 3
-          where you indulge in fine materials and exciting colours.
-        </p>
-      </div>
-      <div class="step three">
-        <img src="/resources/images/color choose 2.jpg" />
-        <p>
-        <strong>STEP 3: MATERIALS AND FABRICS</strong><br>Whether you have your heart set on a
-          dining chair, sofa or table - the task is alike; It’s time for colours
-          and surfaces. Here on our website you can start playing around and
-          design your own sofa, choose the right colour of fronts on the custom
-          wall unit and make the designs fit your personal style. Want to feel
-          the touch of our quality leather in person – visit a store and get
-          first-hand experience along with guidance from our talented interior
-          designers.
-        </p>
-        <!-- <img src="/resources/images/" /> -->
-      </div>
-      </div>
-    </main>
-    <h2>Design Ideas</h2>
-    <section id="ideas">
-      <img src="/resources/images/design.jpg" alt="Designed living room">
-      <p>We love interior design and through passion and
-        persistence, we create furniture designs that fit your personal
-        lifestyle. We can help you with the decisions in your home by contacting us. 
-        A member of our team will assist you in creating the dream layout of you home</p>
-    </section>
-    <h2 id="team">Meet the Team</h2>
-    <div class="team">
-      <img src="/resources/images/Amanda.jpeg" alt="Amanda" />
-      <h3>Amanda<br>"I love woodworking and design! I started this 
-        company out of my love for hardwood. 
-        Reminds me of afternoons spent with my dad in the shop untill late in the night."</h3>
-      <img src="/resources/images/John2.jpg" alt="John" />
-      <h3>John<br>"Everyone says I look like a lumberjack so I thought I should give it a try. As it turns out I'm pretty good at it!"</h3>
-      <img src="/resources/images/Kasey.jpg" alt="Kasey" />
-      <h3>Kasey<br>"I love design, and this company gave me the oportunity to shine, 
-        learn and grow with it! I'll help you with your design choices and what other desires you may have."</h3>
-    </div>
-    <article class="sustainable">
-      <h2>Sustainable Materials</h2>
-      <p>We pride ourselves on using only sustainable materials from local 
-        forests, protected by wildlife 
-        specialists, who ensure the wellbeing 
-        and proliferation of the trees and 
-        forests.</p>
-      <img src="/resources/images/sustain1.jpg" alt="Sustainable Materials" />
-      <img src="/resources/images/sustain2.jpg" alt="Sustainable Forests" />
-    </article>
-    <h2>Grab our Merch!</h2>
-    <section id="merch">
-      <img src="/resources/images/merch.png" alt="Merch" />
-  
-    </section>
+	<!-- Main Header Section -->
+	<header class="container-fluid mt-5 pt-5 text-center">
 
-    <h2>Contact</h2>
-    <section id="contact">
-      <p>
-         <br />One of the things we enjoy most about our business is
-        that each piece of wooden furniture we create is as unique as the
-        customers who ordered it. We love hearing the excitement in someone’s
-        voice as they explain their idea to us and are equally excited to help
-        bring that vision to life. Whether you’re looking to create a very
-        specific piece or need a solution for an awkward area, our team can
-        help. Shoot us an email, give us a call or pop by our beautiful showroom
-        and let’s get started!<br>
-        <strong>Email: contact@fboutique.com</strong>
-      </p>
-      
-      <form action="/index.html" method="post">
-        <h3>Subscribe to our Newsletter</h3>
-        <p>Your Email: <input type="email" name="text-field" class="email"></p>
-        <div class="subscribe"><a href="/index.html#contact">Subscribe</a></div>
-      </form>
+		<div class="container my-4">
+			<img src="/resources/images/header.jpeg" alt="Header Image" class="img-fluid w-70" />
+			<h1 class="display-4 mt-5">TAILORED FOR YOU</h1>
+			<p class="lead">
+				There are countless elements that make you, uniquely you. We help you express your identity through our
+				highly customizable collection
+			</p>
+		</div>
+	</header>
 
-    </section>
-    <footer>
-      <img src="/resources/images/logo.png" alt="Logo">
-      <div class="copyright">Copyright©2022 Furniture Boutique</div>
-    </footer>
-  </body>
+	<!-- How it Works Section -->
+	<section id="steps" class="container my-5">
+		<h2 class="text-center">How it Works</h2>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<img src="/resources/images/work0.jpg" class="img-fluid fixed-size-img mb-3" alt="Step 1 Image" />
+				<h4>STEP 1: STYLE SELECTION</h4>
+				<p>Find the shape and style you love</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<img src="/resources/images/work2.jpg" class="img-fluid fixed-size-img mb-3" alt="Step 2 Image" />
+				<h4>STEP 2: MEASUREMENTS AND SIZE</h4>
+				<p>Make sure your design fits your home</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<img src="/resources/images/color choose 2.jpg" class="img-fluid fixed-size-img mb-3"
+					alt="Step 3 Image" />
+				<h4>STEP 3: MATERIALS AND FABRICS</h4>
+				<p>Choose the colors and surface</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Design Ideas Section -->
+	<section id="ideas" class="container">
+		<h2 class="text-center">Design Ideas</h2>
+		<img src="/resources/images/design.jpg" class="img-fluid mb-3" alt="Designed Living Room" />
+		<p class="text-center">We love interior design and through passion and persistence, we create furniture designs
+			that fit your personal lifestyle.</p>
+	</section>
+
+	<!-- Meet the Team Section -->
+	<section id="team" class="container my-5">
+		<h2 class="text-center">Meet the Team</h2>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<img src="/resources/images/Amanda.jpeg" class="rounded-circle img-fluid mb-3" alt="Amanda" />
+				<h4>Amanda</h4>
+				<p>"I love woodworking and design! I started this company out of my love for hardwood"</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<img src="/resources/images/John2.jpg" class="rounded-circle img-fluid mb-3" alt="John" />
+				<h4>John</h4>
+				<p>"Everyone says I look like a lumberjack, so I thought I should give it a try"</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<img src="/resources/images/Kasey.jpg" class="rounded-circle img-fluid mb-3" alt="Kasey" />
+				<h4>Kasey</h4>
+				<p>"I love design, and this company gave me the opportunity to shine"</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sustainable Materials Section -->
+	<section class="container">
+		<h2 class="text-center">Sustainable Materials</h2>
+		<p class="text-center">We pride ourselves on using only sustainable materials from local forests</p>
+		<div>
+			<img src="/resources/images/sustain1.jpg" class="img-fluid mb-3" alt="Sustainable Materials" />
+		</div>
+
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact" class="container my-5">
+		<h2 class="text-center">Contact</h2>
+		<p class="text-center">Shoot us an email, give us a call, or pop by our beautiful showroom and let's get
+			started!</p>
+		<p class="text-center"><strong>Email: contact@fboutique.com</strong></p>
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<h3 class="text-center">Subscribe to our Newsletter</h3>
+				<div class="mb-3">
+					<input type="email" class="form-control" placeholder="Your Email">
+				</div>
+				<button class="btn btn-primary w-100">Subscribe</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-light text-center py-4">
+		<img src="/resources/images/logo.png" alt="Logo" class="img-fluid mb-3" width="250">
+		<p class="mb-0">&copy; 2022 Furniture Boutique</p>
+	</footer>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXlPA/ttiwgVRm0sMflKWQJp6KAa9iTXZw6z4Zj1EkHEvVCCKf4lP5L1JgfE" crossorigin="anonymous">
+		</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiSkKKHmn5f7KSmZZJLygb9N5KJpmeZW5xZs7p4pbT4JfKTlSY6fN2Bx" crossorigin="anonymous">
+		</script>
+</body>
+
 </html>
